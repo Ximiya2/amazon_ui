@@ -31,7 +31,7 @@ class _CardPageState extends State<CardPage> {
                     cartList.removeAt(index);
                     setState(() {});
                   },
-                  product: cartList[index]!);
+                  product: cartList[index]);
             }),
       ),
       floatingActionButton: Container(
